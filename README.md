@@ -7,8 +7,6 @@ To use this program:
 
 GraphINO requires MATLAB Runtime R2015a (https://www.mathworks.com/products/compiler/matlab-runtime.htm)
 
-GraphINO necessita do MATLAB Runtime R2015a instalado (https://www.mathworks.com/products/compiler/matlab-runtime.html)
-
 Windows 64-bits:
 https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/win64/MCR_R2015a_win64_installer.exe
 
