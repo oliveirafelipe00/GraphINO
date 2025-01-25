@@ -13,12 +13,6 @@ https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/
 Windows 32-bits:
 https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/win32/MCR_R2015a_win32_installer.exe
 
-Linux 64-bits:
-https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/glnxa64/MCR_R2015a_glnxa64_installer.zip
-
-MAC 64-bits:
-https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/maci64/MCR_R2015a_maci64_installer.zip
-
 Load the adiosrv.ino or adiosrv.pde code avaiable at C:\Program Files\Graphino\adiosrv into the Arduino IDE and then close the Arduino IDE.
 
 Open the executable GraphINO.exe.
