@@ -1,12 +1,29 @@
-GraphINO 2.0 is a MATLAB application for Analog Arduino Data Acquisition.
+GraphINO Project
+Version 2.0
 
-This software was developed to facilitate the integration of Arduino with a computer through a graphical interface designed in the MATLAB programming environment for real-time data acquisition from analog sensors.
+This software was developed to facilitate the integration of Arduino with a computer through a graphical interface designed in the Matlab programming environment.
 
 To use this program:
 
-Load the adiosrv.ino or adiosrv.pde code available at C:\Program Files\Graphino\adiosrv into the Arduino IDE and then close the Arduino IDE.
+GraphINO requires MATLAB Runtime R2015a (https://www.mathworks.com/products/compiler/matlab-runtime.htm)
 
-Open the executable GraphINO.
+GraphINO necessita do MATLAB Runtime R2015a instalado (https://www.mathworks.com/products/compiler/matlab-runtime.html)
+
+Windows 64-bits:
+https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/win64/MCR_R2015a_win64_installer.exe
+
+Windows 32-bits:
+https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/win32/MCR_R2015a_win32_installer.exe
+
+Linux 64-bits:
+https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/glnxa64/MCR_R2015a_glnxa64_installer.zip
+
+MAC 64-bits:
+https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/maci64/MCR_R2015a_maci64_installer.zip
+
+Load the adiosrv.ino or adiosrv.pde code avaiable at C:\Program Files\Graphino\adiosrv into the Arduino IDE and then close the Arduino IDE.
+
+Open the executable GraphINO.exe.
 
 Specify the file path where you want to save the data by pressing the ... button.
 
