@@ -5,7 +5,8 @@ This software was developed to facilitate the integration of Arduino with a comp
 To use this program:
 
 Load the adiosrv.ino or adiosrv.pde code available at C:\Program Files\Graphino\adiosrv into the Arduino IDE and then close the Arduino IDE.
-Open the executable.
+
+Open the executable GraphINO.
 
 Specify the file path where you want to save the data by pressing the ... button.
 
