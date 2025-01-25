@@ -1,6 +1,6 @@
 GraphINO 2.0 is a MATLAB application for Analog Arduino Data Acquisition.
 
-This software was developed to facilitate the integration of Arduino with a computer through a graphical interface designed in the MATLAB programming environment for analog sensor data acquisition.
+This software was developed to facilitate the integration of Arduino with a computer through a graphical interface designed in the MATLAB programming environment for real-time data acquisition from analog sensors.
 
 To use this program:
 
