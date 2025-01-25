@@ -6,11 +6,17 @@ To use this program:
 
 Load the adiosrv.ino or adiosrv.pde code available at C:\Program Files\Graphino\adiosrv into the Arduino IDE and then close the Arduino IDE.
 Open the executable.
+
 Specify the file path where you want to save the data by pressing the ... button.
+
 Enter the COM port address of the Arduino.
+
 Specify the number of sensors you want to measure and the desired time interval between measurements (in seconds).
+
 Press the Connect button. It may take a while.
+
 When ready to start measuring, press the Measure button. The data will be displayed in another window as graphs.
+
 To stop data acquisition, press the Stop button. The acquired data will be saved as text files in table format in the specified file path.
 
 Version 2.0 was developed to measure up to 16 analog sensors connected to an Arduino UNO or Arduino Mega.
