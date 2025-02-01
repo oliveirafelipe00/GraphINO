@@ -1,0 +1,113 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3131380066" file="E:\ARQUIVOS\fso@usp.br 2021-07-29 10 54\Ensino\Robótica\Material complementar\Projeto GraphINO\MATLAB CODE\GraphINO.prj" location="E:\ARQUIVOS\fso@usp.br 2021-07-29 10 54\Ensino\Robótica\Material complementar\Projeto GraphINO\MATLAB CODE" name="GraphINO" preferred-package-location="E:\ARQUIVOS\fso@usp.br 2021-07-29 10 54\Ensino\Robótica\Material complementar\Projeto GraphINO\MATLAB CODE\GraphINO\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>GraphINO</param.appname>
+    <param.icon>${PROJECT_ROOT}\GraphINO_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\GraphINO_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\GraphINO_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\GraphINO_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\GraphINO_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>2.0</param.version>
+    <param.authnamewatermark>F. S. Oliveira</param.authnamewatermark>
+    <param.email>oliveira.felipe00@gmail.com</param.email>
+    <param.company />
+    <param.summary>GraphINO is a MATLAB application for Arduino Data Acquisiton in Research and Teaching.</param.summary>
+    <param.description>This software was developed to facilitate the integration of Arduino with a computer through a graphical interface designed in the MATLAB programming environment for analog sensor data acquisition.
+
+It is intended for use in activities related to teaching and research.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\coversplash_400x400.png</param.screenshot>
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\GraphINO\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>E:\ARQUIVOS\fso@usp.br 2021-07-29 10 54\Ensino\Robótica\Material complementar\Projeto GraphINO\DALL·E-2025-01-24-21.35.jpg</param.logo>
+    <param.install.notes>GraphINO Project - Version 2.0
+This software was developed to facilitate the integration of Arduino with a computer through a graphical interface designed in the MATLAB programming environment for real-time data acquisition from analog sensors.
+
+It is intended for use in activities related to teaching and research.
+You must upload the adiosrv code to Arduino.
+GraphINO requires MATLAB Runtime R2015a.
+For further instructions, please refer to the GraphINO_instructions.txt file.</param.install.notes>
+    <param.intermediate>${PROJECT_ROOT}\GraphINO\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\GraphINO\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\GraphINO\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+    </param.required.mcr.products>
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>GraphINO_WBD</param.web.mcr.name>
+    <param.package.mcr.name>GraphINO_installer</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>graphino_log.txt</param.log.file>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\GraphINO_V2.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\arduino.m</file>
+      <file>${PROJECT_ROOT}\GraphINO_V2.fig</file>
+      <file>${PROJECT_ROOT}\instrfind.m</file>
+    </fileset.resources>
+    <fileset.package>
+      <file>${PROJECT_ROOT}\adiosrv.zip</file>
+      <file>${PROJECT_ROOT}\coversplash_400x400.png</file>
+      <file>${PROJECT_ROOT}\GraphINO_Instrucoes.txt</file>
+      <file>${PROJECT_ROOT}\GraphINO_Instructions.txt</file>
+    </fileset.package>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\GraphINO\for_testing" name="splash.png" optional="false">E:\ARQUIVOS\fso@usp.br 2021-07-29 10 54\Ensino\Robótica\Material complementar\Projeto GraphINO\MATLAB CODE\GraphINO\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\GraphINO\for_testing" name="GraphINO.exe" optional="false">E:\ARQUIVOS\fso@usp.br 2021-07-29 10 54\Ensino\Robótica\Material complementar\Projeto GraphINO\MATLAB CODE\GraphINO\for_testing\GraphINO.exe</file>
+      <file location="${PROJECT_ROOT}\GraphINO\for_testing" name="readme.txt" optional="true">E:\ARQUIVOS\fso@usp.br 2021-07-29 10 54\Ensino\Robótica\Material complementar\Projeto GraphINO\MATLAB CODE\GraphINO\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
