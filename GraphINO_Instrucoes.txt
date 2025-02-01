@@ -1,0 +1,52 @@
+LEIA-ME
+
+PROJETO GraphINO
+VERSÃO 2.0
+
+Esse software foi desenvolvido com a intenção de facilitar a integração do 
+Arduino com um computador através
+de uma interface gráfica desenvolvida em ambiente de programação Matlab para a aquisição de dados
+de sensores analógicos.
+
+GraphINO necessita do MATLAB Runtime R2015a instalado (https://www.mathworks.com/products/compiler/matlab-runtime.html)
+
+Windows 64-bits:
+https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/win64/MCR_R2015a_win64_installer.exe
+
+Windows 32-bits:
+https://ssd.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/win32/MCR_R2015a_win32_installer.exe
+
+Para utilizar este programa, basta carregar o código 
+adiosrv.ino ou adiosrv.pde na placa Arduino.
+
+Abra o executável GraphINO.exe.
+
+Informe o endereço do arquivo onde deseja salvar os dados pressionando o botão (...).
+
+Informe o endereço da porta COM do Arduino.
+
+informe o número de sensores que se deseja medir e o 
+intervalo de tempo desejado entre as medidas em segundos.
+
+Pressione o botão Connect. Isso pode demorar um pouco.
+
+Quando estiver preparado para iniciar a medida pressione o botão Measure,
+os dados serão exibidos em uma outra janela na forma de gráficos.
+
+Quando desejar finalizar a aquisição de dados pressione o botão Stop.
+Os dados adquiridos são salvos em arquivos de texto na forma de tabelas no arquivo desejado.
+
+A versão 2.0 foi desenvolvida para medir até 
+16 sensores analógicos ligados ao Arduino UNO ou Arduino Mega.
+
+A Versão 2.0 permite modificar o intervalo de tempo entre as medidas durante a aquisição de dados.
+
+A Versão 2.0 possui um controle PWM na porta digital 10 do Arduino que pode ser modificada durante o experimento.
+
+Espera-se que esta aplicação seja uilizada para finalidades 
+relacionadas com atividades de ensino e pesquisa.
+
+Divirta-se!
+
+Felipe Oliveira
+oliveira.felipe00@gmail.com
