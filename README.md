@@ -3,6 +3,8 @@ Version 2.0
 
 This software was developed to facilitate the integration of Arduino with a computer through a graphical interface designed in the Matlab programming environment.
 
+Installer available at: https://graphino.sourceforge.io/
+
 To use this program:
 
 GraphINO requires MATLAB Runtime R2015a (https://www.mathworks.com/products/compiler/matlab-runtime.htm)
